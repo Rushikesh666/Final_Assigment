@@ -42,6 +42,7 @@ public class Base_class {
 
 		}
 		return driver;
+		
 	}
 		
 	public void Test1_Invoke_homepage() throws IOException, InterruptedException, NullPointerException, AWTException
