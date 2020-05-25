@@ -50,7 +50,7 @@ public class Base_class {
 
 			driver = Initialise();
 			driver.manage().window().maximize();
-			driver.get("http://automationpractice.com/index.php");
+			prop.getProperty("URL");
 			
 	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);	}
 		

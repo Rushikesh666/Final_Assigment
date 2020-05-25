@@ -867,7 +867,6 @@ Order_confirma_object.getbutton_Back_to_orders().click();
 
 		System.out.println(SP_Object.show_number_of_results().getText());
 		
-		System.out.println("TEST 2");
 		
 		int  count=		SP_Object.getlimitingDriver();
 
