@@ -47,7 +47,7 @@ public class Base_class {
 	public void Test1_Invoke_homepage() throws IOException, InterruptedException, NullPointerException, AWTException
 		{
 
-			driver = Initialise();
+			driver = Initialise(); 
 			driver.manage().window().maximize();
 			prop.getProperty("URL");
 			
