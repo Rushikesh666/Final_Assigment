@@ -50,6 +50,7 @@ public class Base_class {
 			driver = Initialise(); 
 			driver.manage().window().maximize();
 			prop.getProperty("URL"); 
+			
 			 
 	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);	}
 		
