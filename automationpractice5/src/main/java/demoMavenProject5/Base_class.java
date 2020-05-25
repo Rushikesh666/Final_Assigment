@@ -38,7 +38,7 @@ public class Base_class {
 
 		else {
 
-			driver = new FirefoxDriver();
+			driver = new FirefoxDriver(); 
 
 		}
 		return driver;
